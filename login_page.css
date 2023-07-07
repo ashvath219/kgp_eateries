@@ -1,0 +1,70 @@
+.buttons{
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    color: green;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: transparent;
+    transform: translate(44%,-65%);
+    text-align: center;
+
+}
+.button{
+    flex: 1;
+    color: green;
+    background-color: transparent;
+    border: 2px black solid;
+}
+body{
+    background-image: url(main_building.png);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+#login-form{
+    position: absolute;
+    left: 33%;
+    top: 20%;
+    width: 250px;
+    height: 200px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    line-height: 0.9;
+    color: green;
+    transform: translate(98.2%,0%);
+}
+.login-button{
+    color: green;
+}
+#signup-form{
+    position: absolute;
+    left: 33%;
+    top: 20%;
+    width: 400px;
+    height: 280px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    line-height: 0.9;
+    color: green;
+    transform: translate(65.5%,0%);
+}
+.passwords{
+    display: flex;
+}
+.password{
+    flex: 1;
+}
+.done-button{
+    color: green;
+}

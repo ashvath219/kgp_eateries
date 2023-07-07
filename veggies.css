@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.picture-container {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: silver;
+}
+.picture{
+    max-height: 100%;
+    max-width: 50%;
+}
+.address{
+    background-color: black;
+    color: white;
+}
+#searchInput {
+  width: 200px;
+  padding: 5px;
+
+}
+
+#searchResults {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#searchResults li {
+  padding: 5px;
+  background-color: #f0f0f0;
+}
+#comments{
+  position:relative;
+  left:50%;
+  transform: translate(-50%,0%);
+}
